@@ -2,9 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FizTech Schedule | Расписание ФизТеха</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="header-text">
+        <h1>Fiztex Schedule</h1>
+        <h2>Расписание занятий Физтеха</h2>
+        <h2>Удобный просмотр расписания по дням и классам</h2>
+    </div>
+    <div>
+        <button class="class-button" data-class="7">7 класс</button>
+        <button class="class-button" data-class="8">8 класс</button>
+    </div>
+    <h2 id="current-schedule">Расписание для:</h2>
+    <div id="letter-buttons"></div>
+    <div id="schedule-7A" class="schedule">Расписание для 7A класса</div>
+    <div id="schedule-7B" class="schedule">Расписание для 7B класса</div>
+    <div id="schedule-8A" class="schedule">Расписание для 8A класса</div>
+    <div id="schedule-8B" class="schedule">Расписание для 8B класса</div>
+    <div id="schedule-8C" class="schedule">Расписание для 8C класса</div>
 
+    <script src= "index.js"></script>
 </body>
 </html>
