@@ -15,7 +15,7 @@ This project is a website for **FizTech School Almaty** that provides informatio
 ## Tech Stack
 
 - **JavaScript**: Main programming language used to develop the server.
-   **Node.js**: Runtime environment used to execute JavaScript code on the server side.
+  - **Node.js**: Runtime environment used to execute JavaScript code on the server side.
 - **HTML**: Core markup language used to structure the content of the web pages.
 - **CSS**: Styling language used to design and layout the visual elements of the web pages.
 
